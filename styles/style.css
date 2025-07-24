@@ -240,12 +240,17 @@ h2 {
 
     .banner-content {
         width: 100%;
-        height: auto;
-        margin: 0 auto;
+        margin: 20px auto;
     }
 
     .banner-title {
         width: 192px;
+        margin: 0 20px;
+        margin-bottom: 5px;
+    }
+
+    .banner-subtitle {
+        margin: 0 20px;
     }
 
     .banner-img {
@@ -261,11 +266,23 @@ h2 {
     /* Plants Section */
     .plant-content {
         margin: auto 13px;
+        margin-bottom: 30px;
+    }
+
+    .plant-title {
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    .plant-subtitle {
+        margin: 0;
+        margin-bottom: 28px;
     }
 
     .cards-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+        margin: auto 5px;
     }
 
     .card {
@@ -274,18 +291,3 @@ h2 {
     }
 }
 
-
-
-/* Add hover/focus for buttons */
-/* .cart-btn:hover,
-.cart-btn:focus {
-    background-color: #c94a06;
-    outline: none;
-} */
-
-/* Add hover for nav links */
-/* .menu-item ul li a:hover,
-.menu-item ul li a:focus {
-    color: #E95A08;
-    outline: none;
-} */ 
