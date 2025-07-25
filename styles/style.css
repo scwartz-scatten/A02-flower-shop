@@ -47,10 +47,6 @@ body {
     font-size: 3.125rem;
 }
 
-.font-28 {
-    
-}
-
 .font-22 {
     font-size: 1.375rem;
 }
@@ -74,9 +70,6 @@ h2 {
 .weight-bold {
     font-weight: 700;
 }
-
-
-
 
 
 /* Color Styles */
@@ -128,6 +121,14 @@ h2 {
 }
 
 
+/* Hover Effects */
+a:hover {
+    color: #E95A08;
+}
+
+button:hover {
+    border: 2px solid black;
+}
 
 
 /* Header Style */
@@ -235,7 +236,6 @@ h2 {
 .badge {
     width: 250px;
     height: 250px;
-    /* border: 2px solid brown; */
 }
 
 .badge img{
@@ -256,7 +256,6 @@ h2 {
     display: flex;
     align-items: center;
     gap: 100px;
-    /* z-index: -1; */
 }
 
 .list-item {
@@ -288,6 +287,15 @@ h2 {
     margin-bottom: 120px;
 } 
 
+
+/* Overlay Section to get a shadowy effect on the background image */
+.overlay {
+    border-image: linear-gradient(
+        rgba(0,0,0,.4)
+    ) 
+    fill 1;
+}
+
 #deal-1 {
     grid-area: sale-1;
     border-radius: 22px;
@@ -295,7 +303,6 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
-    /* filter: brightness(50%); */
 }
 
 #deal-2 {
@@ -315,6 +322,7 @@ h2 {
     background-size: cover;
     height: 425px;
 }
+
 
 .deal a {
     text-decoration: none;
