@@ -114,6 +114,17 @@ h2 {
     cursor: pointer;
 }
 
+.subscribe-btn {
+    color: white;
+    background-color: #E95A08;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+
+
 
 /* Header Style */
 .header {
@@ -311,6 +322,46 @@ h2 {
 }
 
 
+/* Join Section */
+.join {
+    align-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border: 2px solid cadetblue;
+    
+    width: 100%;
+    height: 533px;
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.join-content {
+    max-width: 830px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.colorful-bunch-message {
+    margin-bottom: 25px;
+}
+
+.join-text-area {
+    display: grid;
+    grid-template-columns: repeat(1, 8fr) repeat(1, 2fr);
+    gap: 0;
+    height: 50px;
+}
+
+.join-text-area input {
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+
+
+
 
 
 /* Responsive for Mobile */
@@ -465,6 +516,26 @@ h2 {
 
     #zabo {
         font-size: 1rem;
+    }
+
+    /* Join Section */
+    .join {
+        background-size: cover;
+        background-position: center center;
+        height: 275px;
+        margin-top: 100px;
+    }
+
+    .join-text-area {
+        width: 320px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    .subscribe-btn {
+        font-weight: 400;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 }
 
