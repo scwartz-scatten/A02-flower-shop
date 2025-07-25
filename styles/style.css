@@ -28,6 +28,10 @@ body {
     margin: 25px auto;
 }
 
+.width-360 {
+    max-width: 360px;
+}
+
 .text-center {
     text-align: center;
 }
@@ -192,7 +196,7 @@ h2 {
 
 /* Plants Styles */
 .plants {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .plant-content {
@@ -225,7 +229,7 @@ h2 {
 
 /* Plants Lover Section */
 .plants-lover {
-    margin-bottom: 300px;
+    margin-bottom: 150px;
 }
 
 .badge {
@@ -326,7 +330,7 @@ h2 {
 .join {
     align-content: center;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     border: 2px solid cadetblue;
     
     width: 100%;
@@ -359,6 +363,38 @@ h2 {
     padding-left: 20px;
 }
 
+
+
+/* Footer Section */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 110px;
+    margin-bottom: 70px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) repeat(1, 1fr);
+    gap: 110px;
+}
+
+.footer-link {
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.footer-link a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
 
 
@@ -483,7 +519,7 @@ h2 {
 
     /* Latest Deal Section */
     .latest-deal {
-        margin: 140px 16px;
+        margin: 80px 16px;
     }
 
     .deal-content {
@@ -499,7 +535,7 @@ h2 {
             " sale-2 "
             " sale-3 "
         ;
-        margin-bottom: 120px;
+        margin-bottom: 50px;
     } 
 
     .deal {
@@ -523,7 +559,8 @@ h2 {
         background-size: cover;
         background-position: center center;
         height: 275px;
-        margin-top: 100px;
+        margin-top: 50px;
+        margin-bottom: 80px;
     }
 
     .join-text-area {
@@ -536,6 +573,20 @@ h2 {
         font-weight: 400;
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    /* Footer Section */
+    .footer {
+        margin: auto 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
     }
 }
 
