@@ -178,7 +178,8 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 180px 0;
+    margin: 230px 0;
+    margin-bottom: 180px;
 }
 
 .banner-content {
@@ -197,7 +198,8 @@ button:hover {
 
 /* Plants Styles */
 .plants {
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 80px;
 }
 
 .plant-content {
@@ -230,7 +232,8 @@ button:hover {
 
 /* Plants Lover Section */
 .plants-lover {
-    margin-bottom: 150px;
+    margin-top: 0;
+    margin-bottom: 180px;
 }
 
 .badge {
@@ -265,11 +268,16 @@ button:hover {
 
 
 /* Latest Deal Section */
+.latest-deal {
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
 .deal-content {
     text-align: center;
     max-width: 888px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .deal {
@@ -528,6 +536,7 @@ button:hover {
     /* Latest Deal Section */
     .latest-deal {
         margin: 80px 16px;
+        margin-top: 60px;
     }
 
     .deal-content {
@@ -543,7 +552,7 @@ button:hover {
             " sale-2 "
             " sale-3 "
         ;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
     } 
 
     .deal {
@@ -586,6 +595,7 @@ button:hover {
     /* Footer Section */
     .footer {
         margin: auto 24px;
+        margin-bottom: 70px;
         display: flex;
         flex-direction: column;
         gap: 20px;
